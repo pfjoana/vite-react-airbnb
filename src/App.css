@@ -4,12 +4,14 @@
 
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
+/*** Navbar */
 .nav {
   width: 100vw;
   height: 70px;
-  box-shadow: 0px 2.983px 7.456px rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.10);
 }
 
 .nav img{
@@ -17,84 +19,30 @@ body {
   margin: 22px 0 22px 30px;
 }
 
+
+/*** HERO section */
 .hero-section {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
 }
 
 .hero-section img{
-  display: block;
-  margin: auto;
-  max-width: 80vw;
-  margin-top: 30px;
+  max-width: 800px;
+  align-self: center;
 }
 
 .hero-text {
-margin-left: 36px;
+  margin-left: 40px;
 }
 
-
 .hero-text h1 {
-font-family: 'Poppins', sans-serif;
-font-size: 36px;
-font-weight: 600;
-line-height: 110%; /* 39.6px */
-margin-top: 40px;
+  font-size: 36px;
+  line-height: 110%;
+  margin-top: 40px;
+  margin-bottom: 15px;
 }
 
 .hero-text p{
-width: 320px;
-color: #222;
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 300;
-line-height: 110%; /* 17.6px */
+  margin-top: 0;
 }
-
-
-
-
-
-/*######### default page
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-*/
